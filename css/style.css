@@ -1,0 +1,180 @@
+/* USE THESE COLORS */
+
+/* 
+  red: rgb(190, 38, 34);
+  orange: rgb(255, 128, 0);
+  yellow: rgb(255, 204, 0);
+  dark red: rgb(105, 29, 34);
+  green: rgb(0, 153, 51); 
+  */
+
+/* Base Styles  */
+/*  STEP 1: add a base font-size to the body element 
+hint: use "font-size" property */
+html {
+}
+/* Add margins to the body so that the content 
+  doesn't reach the edges of the view screen
+  hint: margin-left and right should be 'auto'
+  margin-top and bottom can be zero */
+body {
+}
+
+/* logo styling
+1. Style the logo so that the text sits next to the image 
+(hint: use flexbox styling for this)
+2. apply some style to the logo text
+3. apply margins or padding to the logo to position it */
+
+.logo {
+}
+
+/* STYLE THE NAV BAR! */
+/* 
+ 1. use flexbox to make the navigation bar contents 
+  display horizontally. Make the nav a flex container.
+ */
+
+nav {
+  height: fit-content;
+}
+/* Link List Styling:
+1. Make the ul a flex container so that the list items
+inside of it display horizontally
+2. adjust the font-size of the list items
+  */
+nav ul {
+}
+/* Style the list items
+1. remove the bullet point (hint: list-style-type: none)
+2. add padding to give the links some space 
+ */
+
+nav ul li {
+}
+
+/* Adjust the style of the navigation links */
+/* 1. Remove the underline for the links 
+   2. Change the colors from black to something els
+   3. add margins so the links are easy to read
+   4. adjust the font styling (bold, font size, etc)
+   */
+
+li a {
+  color: black;
+}
+/* Alter the colors here for links that have been visited,
+are unvisited, are being clicked on, and are being hovered
+over. */
+li a:visited {
+  color: black;
+}
+li a:hover {
+  color: black;
+}
+
+li a:active {
+  color: black;
+}
+
+/* Style the header 
+    1. center the header text (text-align property)
+    2. give the header section enough height to show the 
+    background image   
+      */
+
+header {
+  background-image: url("/images/food-banner.jpg");
+  background-size: cover;
+}
+
+header h1 {
+}
+/* MAIN STYLING
+* * * * * * * *  */
+/* Make the recipe steps easier to read */
+/* 1. make the content centered on the page.
+   2. adjust the font-size, line-height, or other 
+   text properties for readability. */
+/*  
+
+*/
+main {
+  max-width: 850px;
+}
+/* Make the top "recipe summary" section stand out in some way.
+For example, change the style of the text to be different
+from other text on the page.
+1. adjust the font-size
+2. add padding and/or margins to make the text easy to read
+3. adjust font styles, for example font-style: italic 
+ */
+.recipe-summary {
+}
+
+.recipe-summary p {
+}
+
+/* Style the "Skip to Recipe Button */
+/* This button should stand out. Most users of the 
+site just want the recipe, and will be clicking this button.
+1. give the button a contrasting text color (color) and background color
+(background-color)
+2. add a border-radius to make it look like a button
+3. remove the underline from the link
+4. add some padding so that the button text doesn't touch the 
+button's border.
+ */
+.skip-to-recipe-btn a {
+
+}
+
+
+/*  STYLE THE BLOG TEXT
+1. adjust the line height to make this section's 
+text easier to read
+2. adjust the padding so that the text never sits 
+right against the edge of the screen at any screen size
+3. make any other style adjustments you want for 
+readability*/
+
+.blog p {
+  max-width: 700px;
+}
+
+/* STYLE THE RECIPE SECTION */
+/* Make the recipe section stand out
+  1. give it a background color, but make sure 
+  it is still readable
+  (hint: make the color semi transparent) 
+  2. Add some type of border style to the recipe section 
+  3. adjust font styles 
+  4. adjust padding to make content in this section easier
+  to read 
+  5. create a bottom margin between this section and the footer*/
+  
+  
+.current-recipe {
+
+}
+
+/* Add a frame around the recipe image 
+  1. create the frame with a border
+    hint, use the "border" property with 3 values, 
+    i.e. 'border: 1px solid black;' 
+
+  2. adjust the distance from the frame to the 
+  image using padding. */
+
+  .current-recipe img {
+    max-width: 450px;
+  }
+
+/* Style the footer content
+1. give it a text and background color with good contrast
+2. center the text 
+3. give the footer some height
+4. use padding or margins to make the text readable
+5. adjust the font-size  */
+footer {
+}
