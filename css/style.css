@@ -14,17 +14,19 @@
   */
 
 /* Base Styles  */
+
+* {
+  box-sizing: border-box;
+}
 /*  STEP 1: add a base font-size to the body element 
 hint: use "font-size" property */
 html {
-  
 }
 /* Add margins to the body so that the content 
   doesn't reach the edges of the view screen
   hint: margin-left and right should be 'auto'
   margin-top and bottom can be zero */
 body {
- 
   max-width: 850px;
 }
 
@@ -35,11 +37,7 @@ body {
 3. apply margins or padding to the logo to position it */
 
 .logo {
-
-  
 }
-
-
 
 /* STYLE THE NAV BAR! */
 /* 
@@ -51,7 +49,6 @@ body {
  */
 
 nav {
-  
 }
 /* Link List Styling:
 1. Make the ul a flex container so that the list items
@@ -59,7 +56,6 @@ inside of it display horizontally
 2. remove the bullet point of the list items
   */
 nav ul {
-  
 }
 /* Style the list items
 1. adjust the font size (use rem units)
@@ -67,8 +63,6 @@ nav ul {
  */
 
 nav ul li {
- 
-
 }
 
 /* Adjust the style of the navigation links */
@@ -112,9 +106,7 @@ background image.
 behind the text if the 
 text is hard to read. */
 header h1 {
-
 }
-
 
 /* MAIN STYLING
 * * * * * * * *  */
@@ -199,5 +191,4 @@ readability*/
 4. use padding or margins to make the text readable
 5. adjust the font-size  */
 footer {
-
 }
