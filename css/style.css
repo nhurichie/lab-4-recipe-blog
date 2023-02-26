@@ -19,6 +19,8 @@ html {
   hint: margin-left and right should be 'auto'
   margin-top and bottom can be zero */
 body {
+ 
+  max-width: 850px;
 }
 
 /* logo styling
@@ -28,30 +30,40 @@ body {
 3. apply margins or padding to the logo to position it */
 
 .logo {
+
+  
 }
+
+
 
 /* STYLE THE NAV BAR! */
 /* 
  1. use flexbox to make the navigation bar contents 
   display horizontally. Make the nav a flex container.
+  2. adjust styling with colors! background colors,
+  text colors, etc. Look at my example for an idea
+  of ways to do this.
  */
 
 nav {
-  height: fit-content;
+  
 }
 /* Link List Styling:
 1. Make the ul a flex container so that the list items
 inside of it display horizontally
-2. adjust the font-size of the list items
+2. remove the bullet point of the list items
   */
 nav ul {
+  
 }
 /* Style the list items
-1. remove the bullet point (hint: list-style-type: none)
+1. adjust the font size (use rem units)
 2. add padding to give the links some space 
  */
 
 nav ul li {
+ 
+
 }
 
 /* Adjust the style of the navigation links */
@@ -88,9 +100,17 @@ header {
   background-image: url("/images/food-banner.jpg");
   background-size: cover;
 }
-
+/* Make sure the header text is visible against the 
+background image.
+1. apply a font color
+2. use some kind of background color 
+behind the text if the 
+text is hard to read. */
 header h1 {
+
 }
+
+
 /* MAIN STYLING
 * * * * * * * *  */
 /* Make the recipe steps easier to read */
@@ -127,9 +147,7 @@ site just want the recipe, and will be clicking this button.
 button's border.
  */
 .skip-to-recipe-btn a {
-
 }
-
 
 /*  STYLE THE BLOG TEXT
 1. adjust the line height to make this section's 
@@ -153,10 +171,8 @@ readability*/
   4. adjust padding to make content in this section easier
   to read 
   5. create a bottom margin between this section and the footer*/
-  
-  
-.current-recipe {
 
+.current-recipe {
 }
 
 /* Add a frame around the recipe image 
@@ -167,9 +183,9 @@ readability*/
   2. adjust the distance from the frame to the 
   image using padding. */
 
-  .current-recipe img {
-    max-width: 450px;
-  }
+.current-recipe img {
+  max-width: 450px;
+}
 
 /* Style the footer content
 1. give it a text and background color with good contrast
@@ -178,4 +194,5 @@ readability*/
 4. use padding or margins to make the text readable
 5. adjust the font-size  */
 footer {
+  
 }
