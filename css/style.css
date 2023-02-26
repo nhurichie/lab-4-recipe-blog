@@ -6,6 +6,11 @@
   yellow: rgb(255, 204, 0);
   dark red: rgb(105, 29, 34);
   green: rgb(0, 153, 51); 
+  white
+  black
+  Note: feel free to add additional colors if you
+  want to, & add opacity to these colors! 
+  
   */
 
 /* Base Styles  */
@@ -194,5 +199,5 @@ readability*/
 4. use padding or margins to make the text readable
 5. adjust the font-size  */
 footer {
-  
+
 }
