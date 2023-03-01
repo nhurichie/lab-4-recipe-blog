@@ -111,7 +111,6 @@ nav ul li {
 
 li a {
   color: rgb(255, 247, 0);
-  ;
   text-decoration: none;
   margin: 0 auto;
   font-size: medium;
@@ -170,7 +169,7 @@ header h1 {
 
 */
 main {
-  max-width: 800px;
+  max-width: 850px;
   text-align: justify;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   line-height: 1.5rem;
@@ -205,13 +204,12 @@ site just want the recipe, and will be clicking this button.
 button's border.
  */
 .skip-to-recipe-btn {
-  background-color: rgb(69, 107, 205);
+  background-color: rgb(251, 159, 22);
   font-weight: bolder;
   text-decoration: none;
-  border-radius: 50%;
-  padding: 12px;
-  color: rgb(255, 247, 0);
-
+  border-radius: 80%;
+  padding: 16px;
+  color: rgb(192, 61, 85);
 
 }
 
@@ -240,6 +238,9 @@ readability*/
   5. create a bottom margin between this section and the footer*/
 
 .current-recipe {
+  background-color: rgb(249, 116, 140);
+  border-radius: 2%;
+  padding: 30px;
 }
 
 /* Add a frame around the recipe image 
@@ -251,7 +252,11 @@ readability*/
   image using padding. */
 
 .current-recipe img {
-  max-width: 450px;
+  max-width: 525px;
+  border: 5px solid rgb(255, 247, 0);
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
 }
 
 /* Style the footer content
@@ -261,4 +266,18 @@ readability*/
 4. use padding or margins to make the text readable
 5. adjust the font-size  */
 footer {
+  background-color: rgb(192, 61, 85);
+  color: rgb(255, 247, 0);
+  text-align: center;
+  font-size: smaller;
+  line-height: 1.2rem;
+  padding: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-a {
+  background-color: rgb(192, 61, 85);
+  color: rgb(255, 247, 0);
+  text-decoration: none;
+
 }
