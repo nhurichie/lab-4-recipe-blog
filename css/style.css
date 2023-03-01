@@ -28,6 +28,9 @@ html {
   margin-top and bottom can be zero */
 body {
   max-width: 850px;
+  margin: 0 auto;
+  padding: 10px;
+
 }
 
 /* logo styling
@@ -37,6 +40,10 @@ body {
 3. apply margins or padding to the logo to position it */
 
 .logo {
+  display: flex;
+  flex: 1;
+  align-items: center;
+
 }
 
 /* STYLE THE NAV BAR! */
@@ -49,6 +56,29 @@ body {
  */
 
 nav {
+  display: flex;
+  align-items: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color:rgb(192, 61, 85);
+
+}
+
+.red {
+  color: red;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.orange {
+  color: orange;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.green {
+  color: green;
+  font-size: medium;
+  font-weight: bold;
 }
 /* Link List Styling:
 1. Make the ul a flex container so that the list items
@@ -56,6 +86,10 @@ inside of it display horizontally
 2. remove the bullet point of the list items
   */
 nav ul {
+  display: flex;
+  flex: 2;
+  list-style-type: none;
+  justify-content: flex-end;
 }
 /* Style the list items
 1. adjust the font size (use rem units)
@@ -63,30 +97,43 @@ nav ul {
  */
 
 nav ul li {
+  padding: 20px;
+  margin: 5px 10px;
+
 }
 
 /* Adjust the style of the navigation links */
 /* 1. Remove the underline for the links 
-   2. Change the colors from black to something els
-   3. add margins so the links are easy to read
-   4. adjust the font styling (bold, font size, etc)
+   2. Change the colors from black to something else
+   3. Add margins so the links are easy to read
+   4. Adjust the font styling (bold, font size, etc)
    */
 
 li a {
-  color: black;
+  color: rgb(255, 247, 0);
+  ;
+  text-decoration: none;
+  margin: 0 auto;
+  font-size: medium;
+  font-weight: bold;
+  
 }
 /* Alter the colors here for links that have been visited,
 are unvisited, are being clicked on, and are being hovered
 over. */
 li a:visited {
-  color: black;
+  color: rgb(255, 247, 0);
+  text-decoration: none;
 }
 li a:hover {
-  color: black;
+  color: rgb(255, 247, 0);
+  text-decoration: none;
 }
 
 li a:active {
-  color: black;
+  color: rgb(255, 247, 0);
+  text-decoration: none;
+
 }
 
 /* Style the header 
@@ -97,7 +144,9 @@ li a:active {
 
 header {
   background-image: url("/images/food-banner.jpg");
-  background-size: cover;
+  text-align: center;
+  padding: 12px;
+  height: 125px;
 }
 /* Make sure the header text is visible against the 
 background image.
@@ -106,6 +155,9 @@ background image.
 behind the text if the 
 text is hard to read. */
 header h1 {
+  opacity: 1;
+  color: rgb(255, 247, 0);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* MAIN STYLING
@@ -118,7 +170,10 @@ header h1 {
 
 */
 main {
-  max-width: 850px;
+  max-width: 800px;
+  text-align: justify;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 1.5rem;
 }
 /* Make the top "recipe summary" section stand out in some way.
 For example, change the style of the text to be different
@@ -128,9 +183,15 @@ from other text on the page.
 3. adjust font styles, for example font-style: italic 
  */
 .recipe-summary {
+  text-align: center;
+  font-style: oblique;
+  font-size: 1.2rem;
+  padding: 5px;
+  margin: 5px;
 }
 
 .recipe-summary p {
+  font-weight: 100;
 }
 
 /* Style the "Skip to Recipe Button */
@@ -143,8 +204,17 @@ site just want the recipe, and will be clicking this button.
 4. add some padding so that the button text doesn't touch the 
 button's border.
  */
-.skip-to-recipe-btn a {
+.skip-to-recipe-btn {
+  background-color: rgb(69, 107, 205);
+  font-weight: bolder;
+  text-decoration: none;
+  border-radius: 50%;
+  padding: 12px;
+  color: rgb(255, 247, 0);
+
+
 }
+
 
 /*  STYLE THE BLOG TEXT
 1. adjust the line height to make this section's 
@@ -155,7 +225,7 @@ right against the edge of the screen at any screen size
 readability*/
 
 .blog p {
-  max-width: 700px;
+  max-width: 850px;
 }
 
 /* STYLE THE RECIPE SECTION */
